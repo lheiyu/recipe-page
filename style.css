@@ -125,12 +125,14 @@ h2{
 
 .list3 li{
     margin-left: -1em;
-    padding: 10px;
+    padding-left: 1em;
+    line-height: 1.5em;
 }
 
 
 table{
     border-collapse: collapse;
+    margin-top: 10px;
 }
 tr{ 
     border: solid;
@@ -149,4 +151,8 @@ td{
 }
 .type{
     color: hsl(24, 5%, 18%);
+}
+.quant{
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
 }
